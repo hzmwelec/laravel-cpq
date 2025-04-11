@@ -1,0 +1,33 @@
+{
+    "name": "hzmwelec/cpq",
+    "description": "A lightweight Configure-Price-Quote (CPQ) solution for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hzmwelec\\CPQ\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wanglf63",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/console": "^7.0|^8.0",
+        "illuminate/database": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/validation": "^7.0|^8.0",
+        "maatwebsite/excel": "^3.1",
+        "symfony/expression-language": "^5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hzmwelec\\CPQ\\CPQServiceProvider"
+            ]
+        }
+    }
+}
